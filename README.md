@@ -1,6 +1,6 @@
 # 🟡 AWS SDK for JavaScript v3 – Universal CDN Package
 
-This is a browser-ready distribution of [`@aws-sdk/{repoName}`](https://github.com/aws/aws-sdk-js-v3) modules from AWS SDK for JavaScript v3. It is automatically built and published to a CDN, so developers can use AWS SDKs directly in the browser with zero bundling.
+This is a browser-ready distribution of [`@aws-sdk/util-dynamodb`](https://github.com/aws/aws-sdk-js-v3) modules from AWS SDK for JavaScript v3. It is automatically built and published to a CDN, so developers can use AWS SDKs directly in the browser with zero bundling.
 
 > ⚡️ No build step needed. Just import from a URL and use immediately.
 
@@ -14,7 +14,7 @@ Use directly in the browser via [jsDelivr](https://www.jsdelivr.com/):
 
 ```html
 <script type="module">
-  import { } from "https://cdn.jsdelivr.net/gh/aws-sdk/{repoName}/index.min.mjs";
+  import { } from "https://cdn.jsdelivr.net/gh/aws-sdk/util-dynamodb/index.min.mjs";
   // your logic here
 </script>
 ```
@@ -23,7 +23,7 @@ Use directly in the browser via [jsDelivr](https://www.jsdelivr.com/):
 
 ```html
 <script type="module">
-  import { S3Client } from "https://cdn.jsdelivr.net/gh/aws-sdk/client-s3@{repoVersion}/index.min.mjs";
+  import { S3Client } from "https://cdn.jsdelivr.net/gh/aws-sdk/client-s3@3.932.0/index.min.mjs";
 
   const client = new S3Client({ region: "us-east-1" });
 </script>
@@ -42,7 +42,7 @@ Replace `client-s3` with any other AWS SDK v3 client like:
 
 You can request any official [`@aws-sdk/client-*`](https://github.com/aws/aws-sdk-js-v3/tree/main/clients) module from npm.
 
-If a package you want isn’t available yet, [create an issue](https://github.com/aws-sdk/{repoName}/issues/)
+If a package you want isn’t available yet, [create an issue](https://github.com/aws-sdk/util-dynamodb/issues/)
 
 ---
 
@@ -68,10 +68,10 @@ Examples:
 
 ```js
 // Latest
-https://cdn.jsdelivr.net/gh/aws-sdk/{repoName}/index.min.mjs
+https://cdn.jsdelivr.net/gh/aws-sdk/util-dynamodb/index.min.mjs
 
 // Specific
-https://cdn.jsdelivr.net/gh/aws-sdk/{repoName}@{repoVersion}/index.min.mjs
+https://cdn.jsdelivr.net/gh/aws-sdk/util-dynamodb@3.932.0/index.min.mjs
 ```
 
 ---
@@ -80,14 +80,14 @@ https://cdn.jsdelivr.net/gh/aws-sdk/{repoName}@{repoVersion}/index.min.mjs
 
 Using external scripts from a CDN in production requires care. To lock versions and ensure consistency:
 
-✅ Use fixed versions (`@{repoVersion}`)
+✅ Use fixed versions (`@3.932.0`)
 ❌ Avoid always pointing to `latest` in production.
 
 ---
 
 ## 🤝 Contributing
 
-To request support for a new AWS SDK v3 browder package, [open an issue](https://github.com/aws-sdk/{repoName}/issues).
+To request support for a new AWS SDK v3 browder package, [open an issue](https://github.com/aws-sdk/util-dynamodb/issues).
 
 ---
 

@@ -9,7 +9,7 @@ following additional notes.
 ## Questions
 
 The GitHub issue tracker is for *bug reports* and *feature requests*. Please do
-not use it to ask questions about how to use @aws-sdk/{repoName}. These questions should
+not use it to ask questions about how to use @aws-sdk/util-dynamodb. These questions should
 instead be directed to [Stack Overflow](https://stackoverflow.com/). Make sure
 that your question is tagged with the `javascript & api & aws-sdk` tag when asking it on
 Stack Overflow, to ensure that it is answered promptly and accurately.
